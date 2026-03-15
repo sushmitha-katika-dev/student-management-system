@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 // Backend API URL (Railway)
-const REST_API_BASE_URL = 'https://backend-production-1263.up.railway.app/api/students';
+const REST_API_BASE_URL = 'https://backend-production-2633.up.railway.app/api/students';
+
 
 export const listStudents = () => axios.get(REST_API_BASE_URL);
 
