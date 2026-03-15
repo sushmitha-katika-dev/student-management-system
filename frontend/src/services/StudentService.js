@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const REST_API_BASE_URL = 'http://localhost:8080/api/students';
+// const REST_API_BASE_URL = 'http://localhost:8080/api/students';
+const REST_API_BASE_URL = 'https://backend-production-1263.up.railway.app/api/students';
 
 export const listStudents = () => axios.get(REST_API_BASE_URL);
 
